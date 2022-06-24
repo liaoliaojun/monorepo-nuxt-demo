@@ -1,0 +1,1 @@
+# monorepo-nuxt-demo
