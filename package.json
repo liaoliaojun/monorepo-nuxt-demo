@@ -1,0 +1,23 @@
+{
+  "name": "monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "nuxt:dev": "pnpm --filter \"./packages/nuxt-app\" dev",
+    "nuxt1:dev": "pnpm -C ./packages/nuxt-app dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@ej/nuxt-app": "workspace:*",
+    "@ej/server": "workspace:^1.0.0",
+    "@ej/webapp": "workspace:^1.0.0"
+  }
+}
